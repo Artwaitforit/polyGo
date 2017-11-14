@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>857230975646-nc3rt7j9mv3ups548m0nh0lcquers8fm.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.857230975646-nc3rt7j9mv3ups548m0nh0lcquers8fm</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC561JxToF9ImbjlcsBoOYr1WkqOndeaaQ</string>
+	<key>GCM_SENDER_ID</key>
+	<string>857230975646</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.qyka.polyGo</string>
+	<key>PROJECT_ID</key>
+	<string>polygo-7730c</string>
+	<key>STORAGE_BUCKET</key>
+	<string>polygo-7730c.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:857230975646:ios:e6d23796993654fb</string>
+	<key>DATABASE_URL</key>
+	<string>https://polygo-7730c.firebaseio.com</string>
+</dict>
+</plist>
