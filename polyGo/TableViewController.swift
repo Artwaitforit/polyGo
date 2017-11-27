@@ -9,10 +9,20 @@
 import UIKit
 
 class TableViewController: UITableViewController {
-
+    var fbDataSource : FUITableViewDataSource?
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let ref = Database.database().reference()
+        let event = ref.child("Event")
+        let query  = event.queryOrdered(byChild:"date")
+        fb Datasource = tableView.bind(to:query)
+        {
+            (tableView: UITableView, indexPath: IndexPath, data: DataSnapshot)-> UITableViewCell in
+            let cell = tableView.dequeReusableCell(withIdentifier: "eventCells", for : indexPath)
+            cell.textLable?.text = "Master Text" //Will change master text to event from firebase
+            cell.detailTextLabel?.text = "Detail text" //Same for detail text
+            return cell
+        }
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
